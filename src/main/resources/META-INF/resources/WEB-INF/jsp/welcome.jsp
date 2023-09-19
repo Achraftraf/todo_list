@@ -1,8 +1,8 @@
-<html>
-<head>
-<title>login - JSP</title>
-</head>
-<body>
+<%@ include file="common/header.jspf"%>
+
+<%@ include file="common/navigation.jspf"%>
+
+
 <div class="container">
 	Welcome to the welcome page! hhhhhhhhhh
 	<div>Your Name: ${name}</div>
@@ -10,5 +10,4 @@
 <%-- 	<div>Your Name: ${password}</div> --%>
 	</div>
 
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>
